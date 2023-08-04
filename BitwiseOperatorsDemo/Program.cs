@@ -12,7 +12,10 @@ namespace BitwiseOperatorsDemo
         {
             int x = 5, y = 10,res;
 
-            
+            Console.WriteLine(x);
+            Console.WriteLine(y);
+
+
             //Bitwise AND Operator
             res = x & y;
             Console.WriteLine("Bitwise AND : "+res);
