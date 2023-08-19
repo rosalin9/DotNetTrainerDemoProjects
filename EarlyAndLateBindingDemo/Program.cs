@@ -3,7 +3,7 @@ using EarlyAndLateBindingDemo;
 
 Console.WriteLine("Early and Late Binding Demo");
 
-Employee employee1 = new Employee();
+Employee employee1 = new Employee(); //the data members will initialized to default value
 
 Employee employee = new Employee(101, 20, "Drake");
 

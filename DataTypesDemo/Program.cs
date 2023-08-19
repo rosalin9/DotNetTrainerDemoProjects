@@ -88,13 +88,17 @@ namespace DataTypesDemo
             Console.WriteLine("Boxing and Uboxing Demo");
 
             Console.WriteLine("Object 1 : "+o1);
+            Console.WriteLine(o1.GetType());
             Console.WriteLine("object 2 : "+o2);
 
             //Uboxing -- Converting reference type to value type (Explicit conversion) 
 
             object o3 = _testIntForBoxing;
             int _sampleUbboxingTest = (int)o3;
-            double _sampleUnboxingTest = (int)o1;
+            double _sampleUnboxingTest = Convert.ToDouble(o1);
+            Console.WriteLine(_sampleUbboxingTest);
+            Console.WriteLine(_sampleUnboxingTest);
+            Console.WriteLine(_testIntForBoxing.GetType());
             
 
 

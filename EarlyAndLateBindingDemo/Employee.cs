@@ -13,6 +13,13 @@ namespace EarlyAndLateBindingDemo
         public int age;
         public int id;
 
+        // we can create only one static constructor not more
+        // A static constructor can not be parameterized constructor
+        // A constructor has no return type
+        // when we invoke default constructor it will initialize all the data members as 0 value and null value for string and object type 
+        // we can use parameterised constructor to initialize each data members of the class
+        // we can use private data members and we can initialize the value of private data members by using property that is get and set method 
+
         //static Employee()
         //{
 
@@ -22,9 +29,6 @@ namespace EarlyAndLateBindingDemo
         //{
 
         //}
-
-
-
 
         //static Employee(int age, string name)
         //{

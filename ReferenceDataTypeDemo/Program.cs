@@ -23,6 +23,7 @@ namespace ReferenceDataTypeDemo
 
             object obj2;
             obj2 = "This is Great learning";
+            Console.WriteLine(obj2);
             Console.ReadLine();
 
         }
